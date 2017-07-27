@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MBBSlider
 //
-//  Created by 郑敏 on 2017/7/27.
+//  Created by minbaba on 2017/7/27.
 //  Copyright © 2017年 minbaba. All rights reserved.
 //
 

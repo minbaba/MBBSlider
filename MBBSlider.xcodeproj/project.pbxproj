@@ -9,13 +9,12 @@
 /* Begin PBXBuildFile section */
 		7DFFB0031F29D58A0064F02E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFB0021F29D58A0064F02E /* AppDelegate.swift */; };
 		7DFFB0051F29D58A0064F02E /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFB0041F29D58A0064F02E /* RootViewController.swift */; };
-		7DFFB0071F29D58A0064F02E /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFB0061F29D58A0064F02E /* DataViewController.swift */; };
-		7DFFB0091F29D58A0064F02E /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFB0081F29D58A0064F02E /* ModelController.swift */; };
 		7DFFB00C1F29D58A0064F02E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFB00A1F29D58A0064F02E /* Main.storyboard */; };
 		7DFFB00E1F29D58A0064F02E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFB00D1F29D58A0064F02E /* Assets.xcassets */; };
 		7DFFB0111F29D58A0064F02E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7DFFB00F1F29D58A0064F02E /* LaunchScreen.storyboard */; };
 		7DFFB01C1F29D58A0064F02E /* MBBSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFB01B1F29D58A0064F02E /* MBBSliderTests.swift */; };
 		7DFFB0271F29D58A0064F02E /* MBBSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFB0261F29D58A0064F02E /* MBBSliderUITests.swift */; };
+		7DFFB0351F29D5C00064F02E /* MBBSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFFB0341F29D5C00064F02E /* MBBSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +38,6 @@
 		7DFFAFFF1F29D58A0064F02E /* MBBSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MBBSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFFB0021F29D58A0064F02E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7DFFB0041F29D58A0064F02E /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
-		7DFFB0061F29D58A0064F02E /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
-		7DFFB0081F29D58A0064F02E /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
 		7DFFB00B1F29D58A0064F02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7DFFB00D1F29D58A0064F02E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DFFB0101F29D58A0064F02E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +48,7 @@
 		7DFFB0221F29D58A0064F02E /* MBBSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MBBSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DFFB0261F29D58A0064F02E /* MBBSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MBBSliderUITests.swift; sourceTree = "<group>"; };
 		7DFFB0281F29D58A0064F02E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DFFB0341F29D5C00064F02E /* MBBSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MBBSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +99,9 @@
 		7DFFB0011F29D58A0064F02E /* MBBSlider */ = {
 			isa = PBXGroup;
 			children = (
+				7DFFB0341F29D5C00064F02E /* MBBSlider.swift */,
 				7DFFB0021F29D58A0064F02E /* AppDelegate.swift */,
 				7DFFB0041F29D58A0064F02E /* RootViewController.swift */,
-				7DFFB0061F29D58A0064F02E /* DataViewController.swift */,
-				7DFFB0081F29D58A0064F02E /* ModelController.swift */,
 				7DFFB00A1F29D58A0064F02E /* Main.storyboard */,
 				7DFFB00D1F29D58A0064F02E /* Assets.xcassets */,
 				7DFFB00F1F29D58A0064F02E /* LaunchScreen.storyboard */,
@@ -269,8 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DFFB0051F29D58A0064F02E /* RootViewController.swift in Sources */,
-				7DFFB0091F29D58A0064F02E /* ModelController.swift in Sources */,
-				7DFFB0071F29D58A0064F02E /* DataViewController.swift in Sources */,
+				7DFFB0351F29D5C00064F02E /* MBBSlider.swift in Sources */,
 				7DFFB0031F29D58A0064F02E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
